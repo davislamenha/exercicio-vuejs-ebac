@@ -4,6 +4,7 @@ const props = defineProps(['saveNumber', 'saveOperator']);
 
 <template>
   <form class="container py-5">
+    <p class="fs-5 text-center">Preencha os campos abaixo para calcular</p>
     <div class="row flex justify-content-center">
       <div class="col-md-4">
         <input
